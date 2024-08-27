@@ -1,0 +1,38 @@
+﻿body {
+
+}
+.Menu {
+    width: 680px;
+    height: 580px;
+    border-radius: 50px;
+    background-color: rgba(56, 56, 56, 1);
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.Inputs{
+    width:550px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.button {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 400px;
+}
+button {
+    text-align: center;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+    color: rgba(100, 100, 100, 1);
+}
+.link {
+    margin-top: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: rgba(100, 100, 100, 1);
+}
