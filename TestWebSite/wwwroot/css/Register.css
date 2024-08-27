@@ -6,8 +6,7 @@
     height: 580px;
     border-radius: 50px;
     background-color: rgba(56, 56, 56, 1);
-    margin-top: auto;
-    margin-bottom: auto;
+    margin:auto;
 }
 .Inputs{
     width:550px;

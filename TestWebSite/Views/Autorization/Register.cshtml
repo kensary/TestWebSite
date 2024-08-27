@@ -7,34 +7,33 @@
     <link href="~/css/Register.css" rel="stylesheet" />
 </head>
 
-<form method="post" asp-action="Register" asp-controller="Autorization">
-    <div class="Background">
-        <div class="Menu">
-            <div class="Text">
-                <h1>Зарегестрироваться</h1>
+
+<div class="Menu">
+    <form method="post" asp-action="Register" asp-controller="Autorization">
+        <div class="Text">
+            <h1>Зарегестрироваться</h1>
+        </div>
+        <div class="Inputs">
+            <div class="InputLogin">
+                <input asp-for="Login" placeholder="логин">
             </div>
-            <div class="Inputs">
-                <div class="InputLogin">
-                    <input asp-for="Login" placeholder="логин">
-                </div>
-                <div class="InputPassword">
-                    <input asp-for="Password" type="password" placeholder="пароль">
-                </div>
-                <div class="InputCopyPassword">
-                    <input asp-for="CopyPassword" type="password" placeholder="повторите пароль">
-                </div>
-                <div class="InputEmail">
-                    <input asp-for="Email" placeholder="Email (не обязательно)">
-                </div>
+            <div class="InputPassword">
+                <input asp-for="Password" type="password" placeholder="пароль">
             </div>
-            <div class="buttons">
-                <div class="button">
-                    <button>Зарегестрироваться</button>
-                </div>
-                <div class="link">
-                    <a asp-action="Login" asp-controller="Autorization">Назад</a>
-                </div>
+            <div class="InputCopyPassword">
+                <input asp-for="CopyPassword" type="password" placeholder="повторите пароль">
+            </div>
+            <div class="InputEmail">
+                <input asp-for="Email" placeholder="Email (не обязательно)">
             </div>
         </div>
-    </div>
-</form>
+        <div class="buttons">
+            <div class="button">
+                <button>Зарегестрироваться</button>
+            </div>
+            <div class="link">
+                <a asp-action="Login" asp-controller="Autorization">Назад</a>
+            </div>
+        </div>
+    </form>
+</div>
