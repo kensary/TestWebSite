@@ -30,7 +30,7 @@ namespace TestWebSite.Controllers
             {
                 return View(); 
             }
-            return RedirectToAction("Profile","Profile");
+            return RedirectToAction("Profile","Profile",new { user.Id });
         }
         [HttpPost]
         public IActionResult Register(RegisterViewModel registerModel)

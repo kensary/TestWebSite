@@ -1,0 +1,25 @@
+﻿body {
+
+}
+
+h1 {
+    color: rgba(255, 255, 255, 1);
+    font-family:sans-serif;
+    font:bold;
+    text-align:center;
+    margin-top:20px;
+}
+.as {
+    color: rgba(99, 99, 99, 1);
+    font-family: sans-serif;
+    font: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+.ad {
+    color: rgba(255, 255, 255, 1);
+    font-family: sans-serif;
+    font: bold;
+    text-align: center;
+    margin-top: 20px;
+}
